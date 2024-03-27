@@ -1,0 +1,20 @@
+{
+  "jest": {
+    "transform": {}
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:api": "jest -i tests/pets.spec.js",
+    "test:buddies": "node --experimental-vm-modules node_modules/jest/bin/jest.js -i tests/buddies/buddies.spec.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "chance": "^1.1.11",
+    "cypress": "^13.7.1",
+    "jest": "^29.7.0",
+    "jest-joi": "^1.1.17",
+    "joi": "^17.11.0",
+    "supertest": "^6.3.3"
+  }
+}
